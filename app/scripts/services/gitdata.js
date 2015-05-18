@@ -8,16 +8,13 @@
  * Factory in the angularJsApp.
  */
 angular.module('angularJsApp')
-  .factory('gitData', function () {
+  .factory('gitData', function ($resource, profileData) {
     // Service logic
     // ...
-
-    var meaningOfLife = 42;
+    
 
     // Public API here
     return {
-      someMethod: function () {
-        return meaningOfLife;
-      }
+      activity: $resource('https://api.github.com/users/kadajett/events') 
     };
   });

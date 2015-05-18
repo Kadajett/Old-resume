@@ -16,16 +16,33 @@ angular.module('angularJsApp')
        last: 'Stover',
        nick: 'Kadajett'
      },
+     githubUsername: 'Kadajett',
+     location: {
+       city: 'San Francisco',
+       state: 'California'
+     },
      age: 23,
      title: "Javacript Engineer",
      phone: "219-628-2736",
      email: "jeremy.ryan.stover@gmail.com",
+     resumeEmbedHTML: '<iframe src="https://docs.google.com/document/d/1I2TjapGUfQZVrM52SWQMo35IxixjsmHvOXhRK5zPAVk/pub?embedded=true"></iframe>',
      links: {
-       resumeEmbedHTML: '<iframe src="https://docs.google.com/document/d/1I2TjapGUfQZVrM52SWQMo35IxixjsmHvOXhRK5zPAVk/pub?embedded=true"></iframe>',
-       resumeLink: 'https://docs.google.com/document/d/1I2TjapGUfQZVrM52SWQMo35IxixjsmHvOXhRK5zPAVk/edit?usp=sharing',
-       github: 'https://github.com/kadajett',
-       youtube: 'https://www.youtube.com/user/JeremyStoverGD/videos',
-       googleP: 'https://plus.google.com/+JeremyStover/posts'
+       resume: {
+         link: 'https://docs.google.com/document/d/1I2TjapGUfQZVrM52SWQMo35IxixjsmHvOXhRK5zPAVk/edit?usp=sharing',
+         icon: 'fa fa-file-text'
+       }, 
+       github: {
+         link: 'https://github.com/kadajett',
+         icon: 'fa fa-github-alt'
+       },
+       youtube: {
+         link: 'https://www.youtube.com/user/JeremyStoverGD/videos',
+         icon: 'fa fa-youtube'
+       },
+       googlePlus: {
+         link: 'https://plus.google.com/+JeremyStover/posts',
+         icon: 'fa fa-google-plus'
+       }
      }
      
    };
@@ -35,10 +52,12 @@ angular.module('angularJsApp')
         var defer = $q.defer();
         
         var basic = {
-          name: profile.name,
+          nameSeperated: profile.name,
+          nameFull: profile.name.first + ' ' + profile.name.last,
           title: profile.title,
           email: profile.email,
-          resumeLink: profile.links.resumeLink
+          resumeLink: profile.links.resumeLink,
+          city: profile.location.city
         }
         
         defer.resolve(basic);
@@ -49,6 +68,21 @@ angular.module('angularJsApp')
         var defer = $q.defer();
         
         defer.resolve($sce.trustAsHtml(profile.links.resumeEmbedHTML));
+        
+        return defer.promise;
+      },
+      getLinks: function(asArray){
+        var defer = $q.defer();
+        
+        if(asArray){
+          var linksArr = [];
+          angular.forEach(profile.links, function(element) {
+  				linksArr.push(element);
+			 });
+          defer.resolve(linksArr);
+        }else{
+          defer.resolve(profile.links);
+        }
         
         return defer.promise;
       }

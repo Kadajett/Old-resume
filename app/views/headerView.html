@@ -2,16 +2,12 @@
         <div class="container">                       
             <img class="profile-image img-responsive pull-left" src="images/mahFace.jpg" alt="Mah Face" />
             <div class="profile-content pull-left">
-                <h1 class="name">James Lee</h1>
-                <h2 class="desc">Web App Developer</h2>   
+                <h1 class="name">{{basicData.nameFull}}</h1>
+                <h2 class="desc">{{basicData.title}}</h2>   
                 <ul class="social list-inline">
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>                   
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-github-alt"></i></a></li>                  
-                    <li class="last-item"><a href="#"><i class="fa fa-hacker-news"></i></a></li>                 
+                    <li class="headerLinks" data-ng-repeat="link in links"><a data-ng-href="{{link.link}}"><i class="{{link.icon}}"></i></a></li>                   
                 </ul> 
             </div><!--//profile-->
-            <a class="btn btn-cta-primary pull-right" href="http://themes.3rdwavemedia.com/" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</a>              
+            <a class="btn btn-cta-primary pull-right" href="#" target="_blank"><i class="fa fa-paper-plane"></i> Email Me</a>              
         </div><!--//container-->
     </header><!--//header-->

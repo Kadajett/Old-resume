@@ -9,9 +9,19 @@
  */
 angular.module('angularJsApp')
   .controller('TopnavCtrl', function ($scope, profileData) {
-  		profileData.getBasicData()
-    	.then(function(res){
-//       success
-			$scope.basicData = res;
-    	})
+  		var init = function(){
+        profileData.getBasicData()
+        .then(function(res){
+  //       success
+           $scope.basicData = res;
+        })
+        profileData.getLinks(true)
+        .then(function(res){
+          $scope.links = res;
+        })
+      }
+  		
+      
+      
+      init();
   });

@@ -6,7 +6,8 @@ angular.module('angularJsApp', [
   'ngSanitize',
   'ngRoute'
 ])
-  .config(function ($routeProvider) {
+  .config(function ($routeProvider, $resourceProvider, $compileProvider) {
+// 	 $compileProvider.debugInfoEnabled(false);
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
