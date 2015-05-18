@@ -1,0 +1,1760 @@
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000337;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  color: #778492;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000345;
+  }
+}
+
+a.btn,
+.btn {
+  font-family: Montserrat, arial, sans-serif;
+  padding: 8px 16px;
+  font-weight: bold;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000353;
+  }
+}
+
+a.btn-cta-primary,
+.btn-cta-primary {
+  background: #54ba4e;
+  border: 1px solid #54ba4e;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000363;
+  }
+}
+
+a.btn-cta-primary:hover,
+.btn-cta-primary:hover {
+  background: #54ba4e;
+  border: 1px solid #54ba4e;
+  color: #fff;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000371;
+  }
+}
+
+a.btn-cta-secondary,
+.btn-cta-secondary {
+  background: #479fc8;
+  border: 1px solid #479fc8;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000381;
+  }
+}
+
+a.btn-cta-secondary:hover,
+.btn-cta-secondary:hover {
+  background: #3893bd;
+  border: 1px solid #3893bd;
+  color: #fff;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000389;
+  }
+}
+
+.latest .featured-image .ribbon .text:before,
+.latest .featured-image .ribbon .text:after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  border-top: 5px solid #276582;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000399;
+  }
+}
+
+body {
+  font-family: Lato, arial, sans-serif;
+  color: #434343;
+  background: #dae3e7;
+  font-size: 16px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003123;
+  }
+}
+
+a {
+  color: #3aaa64;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003125;
+  }
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #5f6b77;
+  color: #2d844e;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003130;
+  }
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003135;
+  }
+}
+
+a.btn .fa {
+  margin-right: 5px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003138;
+  }
+}
+
+a.btn:focus {
+  color: #fff;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003154;
+  }
+}
+
+a.dotted-link {
+  border-bottom: 1px dotted #778492;
+  color: #778492;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003157;
+  }
+}
+
+a.dotted-link:hover {
+  text-decoration: none;
+  color: #49515a;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003165;
+  }
+}
+
+.btn .fa {
+  margin-right: 5px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003168;
+  }
+}
+
+.btn:focus {
+  color: #fff;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003184;
+  }
+}
+
+.text-highlight {
+  color: #32383e;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003187;
+  }
+}
+
+.label-theme {
+  background: #3aaa64;
+  font-size: 12px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003191;
+  }
+}
+
+.header {
+  padding: 30px 0;
+  background: #f5f5f5;
+  border-top: 10px solid #778492;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003195;
+  }
+}
+
+.header .btn {
+  margin-top: 60px;
+  font-weight: bold;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003199;
+  }
+}
+
+.header .profile-image {
+  margin-right: 30px;
+  max-height: 100px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003204;
+  }
+}
+
+.header .profile-content .name {
+  color: #49515a;
+  font-size: 38px;
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003210;
+  }
+}
+
+.header .profile-content .desc {
+  color: #778492;
+  font-family: Lato, arial, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003218;
+  }
+}
+
+.header .profile-content .social a {
+  background: #b0b7bf;
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  border-radius: 50%;
+  background-clip: padding-box;
+  color: #fff;
+  text-align: center;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003229;
+  }
+}
+
+.header .profile-content .social a:hover {
+  background: #778492;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003232;
+  }
+}
+
+.header .profile-content .social a .fa {
+  font-size: 20px;
+  padding-top: 8px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003239;
+  }
+}
+
+.sections-wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003243;
+  }
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003245;
+  }
+}
+
+.section .section-inner {
+  background: #fff;
+  padding: 30px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003249;
+  }
+}
+
+.section .heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #545e69;
+  font-size: 24px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003255;
+  }
+}
+
+.section .content .more-link .fa {
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003261;
+  }
+}
+
+.latest .item {
+  margin-bottom: 30px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003263;
+  }
+}
+
+.latest .item .title {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003266;
+  }
+}
+
+.latest .item .title .label {
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003270;
+  }
+}
+
+.latest .item .title a {
+  color: #778492;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003272;
+  }
+}
+
+.latest .item .title a:hover {
+  color: #5f6b77;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003277;
+  }
+}
+
+.latest .item .project-image:hover {
+  opacity: 0.8;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003281;
+  }
+}
+
+.latest .divider {
+  margin-bottom: 60px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003284;
+  }
+}
+
+.latest .featured {
+  margin-bottom: 60px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003286;
+  }
+}
+
+.latest .featured .title {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003290;
+  }
+}
+
+.latest .featured .summary {
+  margin-bottom: 30px;
+  color: #778492;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003294;
+  }
+}
+
+.latest .featured img {
+  margin-bottom: 30px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003297;
+  }
+}
+
+.latest .featured .desc {
+  margin-bottom: 30px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003301;
+  }
+}
+
+.latest .featured-image {
+  position: relative;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003303;
+  }
+}
+
+.latest .featured-image .text {
+  background: #3aaa64;
+  color: #fff;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003307;
+  }
+}
+
+.latest .featured-image .ribbon {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  width: 110px;
+  height: 110px;
+  overflow: hidden;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003314;
+  }
+}
+
+.latest .featured-image .ribbon .text {
+  font-family: Montserrat, sans-serif;
+  position: relative;
+  left: -8px;
+  top: 18px;
+  width: 158px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #479fc8;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003327;
+  }
+}
+
+.latest .featured-image .ribbon .text:before {
+  left: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003331;
+  }
+}
+
+.latest .featured-image .ribbon .text:after {
+  right: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003339;
+  }
+}
+
+.ghfeed {
+  height: 600px;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003343;
+  }
+}
+
+.ghfeed * {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003346;
+  }
+}
+
+.ghfeed *:before {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003350;
+  }
+}
+
+.ghfeed *:after {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003357;
+  }
+}
+
+.info .fa {
+  margin-right: 15px;
+  color: #ccd1d6;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003360;
+  }
+}
+
+.info .fa.fa-envelope-o {
+  font-size: 14px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003364;
+  }
+}
+
+.info ul {
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003367;
+  }
+}
+
+.info li {
+  margin-bottom: 15px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003369;
+  }
+}
+
+.info li:last-child {
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003375;
+  }
+}
+
+.skills .intro {
+  margin-bottom: 30px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003379;
+  }
+}
+
+.skills .skillset .item {
+  margin-bottom: 30px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003382;
+  }
+}
+
+.skills .skillset .level-title {
+  font-size: 16px;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 10;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003387;
+  }
+}
+
+.skills .skillset .level-title .level-label {
+  color: #ccd1d6;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Lato, arial, sans-serif;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003397;
+  }
+}
+
+.skills .skillset .level-bar {
+  height: 15px;
+  background: #e8e8e8;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003401;
+  }
+}
+
+.skills .skillset .level-bar-inner {
+  height: 15px;
+  background: #66cb8c;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003408;
+  }
+}
+
+.credits .btn {
+  margin-bottom: 15px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003411;
+  }
+}
+
+.credits ul li {
+  margin-bottom: 10px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003413;
+  }
+}
+
+.credits ul li .fa {
+  margin-right: 5px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003416;
+  }
+}
+
+.credits ul li a {
+  color: #778492;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003418;
+  }
+}
+
+.credits ul li a:hover {
+  color: #49515a;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003424;
+  }
+}
+
+.footer {
+  background: #32383e;
+  color: #fff;
+  padding: 10px 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003428;
+  }
+}
+
+.footer .copyright {
+  line-height: 1.6;
+  color: #a1aab4;
+  font-size: 14px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003433;
+  }
+}
+
+.footer a {
+  color: #fff;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003436;
+  }
+}
+
+.footer .fa-heart {
+  color: #fb866a;
+}
+
+@media (max-width: 767px) {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+    }
+
+    line {
+      font-family: \00003441;
+    }
+}
+
+  .header {
+    text-align: center;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+    }
+
+    line {
+      font-family: \00003443;
+    }
+}
+
+  .header .profile-image {
+    float: none !important;
+    margin: 0 auto;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+    }
+
+    line {
+      font-family: \00003447;
+    }
+}
+
+  .header .profile-content {
+    float: none !important;
+    text-align: center;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+    }
+
+    line {
+      font-family: \00003451;
+    }
+}
+
+  .header .btn {
+    margin-top: 30px;
+    float: none !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+    }
+
+    line {
+      font-family: \00003456;
+    }
+}
+
+  .project-image {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 1400px) {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+    }
+
+    line {
+      font-family: \00003461;
+    }
+}
+
+  .container {
+    width: 1360px;
+  }
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003465;
+  }
+}
+
+.projects .item {
+  margin-bottom: 30px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003467;
+  }
+}
+
+.projects .item .title {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003472;
+  }
+}
+
+.projects .item .title a {
+  color: #778492;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003474;
+  }
+}
+
+.projects .item .title a:hover {
+  color: #5f6b77;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003480;
+  }
+}
+
+.experience .item {
+  margin-bottom: 30px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003482;
+  }
+}
+
+.experience .item .title {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003487;
+  }
+}
+
+.experience .item .title .place {
+  color: #999999;
+  font-weight: normal;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003490;
+  }
+}
+
+.experience .item .title .place a {
+  color: #999999;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003492;
+  }
+}
+
+.experience .item .title .place a:hover {
+  color: #666666;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003497;
+  }
+}
+
+.experience .item .title .year {
+  color: #999999;
+  font-weight: normal;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003503;
+  }
+}
+
+.testimonials .item {
+  margin-bottom: 30px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003505;
+  }
+}
+
+.testimonials .item:last-child {
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003508;
+  }
+}
+
+.testimonials .item .quote {
+  color: #666666;
+  font-size: 16px;
+  border-left-color: #9fdeb7;
+  margin-bottom: 15px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003513;
+  }
+}
+
+.testimonials .item .quote .fa {
+  color: #66cb8c;
+  margin-right: 15px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003518;
+  }
+}
+
+.testimonials .item .source {
+  font-size: 14px;
+  padding-left: 30px;
+  font-weight: 500;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003522;
+  }
+}
+
+.testimonials .item .source .name {
+  color: #939ea9;
+  font-weight: 600;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003526;
+  }
+}
+
+.testimonials .item .source .title {
+  color: #999999;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003531;
+  }
+}
+
+.education .item {
+  margin-bottom: 30px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003533;
+  }
+}
+
+.education .item:last-child {
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003536;
+  }
+}
+
+.education .item .title {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003540;
+  }
+}
+
+.education .item .university {
+  font-family: Lato, arial, sans-serif;
+  font-size: 13px;
+  color: #999999;
+  font-weight: 600;
+  padding-left: 25px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003546;
+  }
+}
+
+.education .item .university .year {
+  color: #b0b7bf;
+  font-weight: 500;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003552;
+  }
+}
+
+.languages .item {
+  margin-bottom: 15px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003554;
+  }
+}
+
+.languages .item .title {
+  color: #778492;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003557;
+  }
+}
+
+.languages .item .level {
+  color: #999999;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003560;
+  }
+}
+
+.languages .item:last-child {
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003563;
+  }
+}
+
+.languages .item .fa {
+  color: #66cb8c;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003567;
+  }
+}
+
+.blog .item {
+  margin-bottom: 30px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003569;
+  }
+}
+
+.blog .item .title {
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003572;
+  }
+}
+
+.blog .item .title a {
+  color: #778492;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003574;
+  }
+}
+
+.blog .item .title a:hover {
+  color: #5f6b77;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003579;
+  }
+}
+
+.blog .item:last-child {
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003583;
+  }
+}
+
+.list ul li {
+  margin-bottom: 10px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003585;
+  }
+}
+
+.list ul li .fa {
+  margin-right: 5px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003588;
+  }
+}
+
+.list ul li a {
+  color: #778492;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/codio\/workspace\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003590;
+  }
+}
+
+.list ul li a:hover {
+  color: #49515a;
+}

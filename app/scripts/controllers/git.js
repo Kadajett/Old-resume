@@ -8,10 +8,16 @@
  * Controller of the angularJsApp
  */
 angular.module('angularJsApp')
-  .controller('GitCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('GitCtrl', function ($scope, gitData, Git) {
+    var init = function(){
+        gitData.activity.query().$promise
+        .then(function(res){
+            Git.parseActivity(res)
+            .then(function(res){
+                $scope.activity = res;
+            })
+        })
+    }
+    
+    init();
   });
