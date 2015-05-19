@@ -3,7 +3,7 @@
     <div class="content">
         <ul class="list-unstyled">
             <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span> {{basicData.city}}</li>
-            <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">{{basicData.email}}</a></li>
+            <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">{{basicData.email | limitTo: 15}}{{basicData.email.length > 15 ? '...' : ''}}</a></li>
             <li><i class="{{homeUrl.icon}}"></i><span class="sr-only">Website:</span><a data-ng-href="homeUrl.link">{{homeUrl.link}}</a></li>
         </ul>
     </div><!--//content-->  

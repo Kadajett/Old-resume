@@ -23,6 +23,8 @@ angular.module('angularJsApp').service('Git', function Git($q) {
         })
         defer.resolve(newArr);
         
+        
+        
         return defer.promise;
     }
 });

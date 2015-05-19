@@ -2,11 +2,13 @@
     <h2 class="heading">Skills</h2>
     <div class="content">
         <p class="intro">
-            This section is not completely filled out as I am on the hunt for a valid test to measure my skill levels
+            Codewars is a test bed for learning your language, and mastering your kung-fu. This data represents the amount of activity I have for each language, not the quality of my code. 
         </p>
-
+        <hr>
         <div class="skillset">
-
+            <div class="item" data-ng-if="!skills.javascript">
+                <p class="text-danger">Oh no! Codewars' API is unavailable at the moment.</p>
+            </div>
             <div class="item" data-ng-repeat="(language, res) in skills">
                 <h3 class="level-title">{{language}}<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info...">{{res.name}}</span></h3>
                 <div class="progress level-bar">

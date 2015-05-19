@@ -15,13 +15,7 @@ angular.module('angularJsApp').factory('skills', function($resource) {
     //           })
     return {
         codeWars: {
-            data: $resource("https://www.codewars.com/api/v1/users/Kadajett?access_key=5NUHkFHUE8vkfPYWadpT", {
-                callback: "JSON_CALLBACK"
-            }, {
-                get: {
-                    method: "JSONP"
-                }
-            }),
+            data: $resource("https://www.codewars.com/api/v1/users/Kadajett?access_key=5NUHkFHUE8vkfPYWadpT"),
             icon: ''
         },
         coderwall: {
