@@ -4,7 +4,8 @@
 // Run button configuration
   "commands": {
         "Node version": "node --version",
-        "Grunt Serve": "grunt serve"
+        "Grunt Serve": "grunt serve",
+        "Grunt Serve Dist": "grunt serve:dist"
   },
 
 // Preview button configuration
