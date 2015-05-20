@@ -1,0 +1,26 @@
+<div class="section-inner">
+    <h2 class="heading">Blog Posts</h2>
+    <div class="content">
+        <!--//item-->
+        <div class="item row" data-ng-repeat="post in posts">
+            <a class="col-md-4 col-sm-4 col-xs-12" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-mobile-apps-atom/" target="_blank">
+                <img class="img-responsive project-image" data-ng-src="{{post.image}}" alt="project name" />
+            </a>
+            <div class="desc col-md-8 col-sm-8 col-xs-12">
+                <h3 class="title">{{post.title}}</h3>
+                <p>{{post.body}}</p>
+                <p data-ng-if="post.link"><a class="more-link" data-ng-href="post.link" target="_blank"><i class="fa fa-external-link"></i>{{post.link}}</a>
+                </p>
+            </div>
+            <!--//desc-->
+            <hr class="divider" />
+        </div>
+
+        <!--//item-->
+
+
+
+    </div>
+    <!--//content-->
+</div>
+<!--//section-inner-->

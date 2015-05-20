@@ -5,19 +5,18 @@
  * @name angularJsApp.blogData
  * @description
  * # blogData
- * Factory in the angularJsApp.
+ * Trying out a new method here. Hopefully binding the factories api to the firebase
+ * object will keep two way databinding open. Lets find out.
  */
 angular.module('angularJsApp')
-  .factory('blogData', function () {
-    // Service logic
-    // ...
+  .factory('blogData', function ($firebaseArray) {
 
-    var meaningOfLife = 42;
+    var postsRef = new Firebase("https://githubblog.firebaseio.com/posts"),
+        workRef = new Firebase("https://githubblog.firebaseio.com/workHistory")
+    
 
-    // Public API here
     return {
-      someMethod: function () {
-        return meaningOfLife;
-      }
+        posts: $firebaseArray(postsRef),
+        work: $firebaseArray(workRef)
     };
   });

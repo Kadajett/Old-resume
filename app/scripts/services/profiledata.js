@@ -44,6 +44,10 @@ angular.module('angularJsApp').factory('profileData', function($sce, $q) {
             portfolio: {
                 link: 'http://kadajett.github.io',
                 icon: 'fa fa-external-link'
+            },
+            linkedIn: {
+                link: 'https://www.linkedin.com/in/kadajett',
+                icon: 'fa fa-linkedin'
             }
         }
     };

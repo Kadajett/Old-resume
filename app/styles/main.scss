@@ -463,6 +463,12 @@ a {
 	}
 }
 .projects .item {
+    i {
+        color: #3aaa64;
+    }
+    height: 80px;
+    border-bottom: 1px solid #545e69;
+    overflow-y: hidden;
 	margin-bottom: 30px;
 	.title {
 		font-size: 16px;

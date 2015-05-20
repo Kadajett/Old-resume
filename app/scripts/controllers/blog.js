@@ -8,10 +8,10 @@
  * Controller of the angularJsApp
  */
 angular.module('angularJsApp')
-  .controller('BlogCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('BlogCtrl', function ($scope, Blog) {
+    var init = function(){
+        $scope.posts = Blog.data.posts;
+    }
+    
+    init();
   });
