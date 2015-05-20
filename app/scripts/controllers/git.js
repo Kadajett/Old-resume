@@ -12,7 +12,7 @@ angular.module('angularJsApp')
     var init = function(){
         gitData.activity.query().$promise
         .then(function(res){
-            Git.parseActivity(res)
+            Git.parseActivity(res, 5)
             .then(function(res){
                 $scope.activity = res;
             })
