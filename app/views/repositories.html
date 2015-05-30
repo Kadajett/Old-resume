@@ -2,7 +2,7 @@
     <h2 class="heading">Popular Projects</h2>
     <div class="content">
         <div class="item" data-ng-repeat="repo in repos">
-            <h3 class="title"><a data-ng-href="{{repo.html_url}}">{{repo.full_name}}</a></h3>
+            <h3 class="title"><a data-ng-href="{{repo.html_url}}" target="_blank">{{repo.full_name}}</a></h3>
             <i class="pull-right fa fa-star text-success"> {{repo.stargazers_count}}</i>
             
             <p class="summary">{{repo.description}}</p>
